@@ -1,13 +1,100 @@
-body {
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+   @apply max-w-[1900px] mx-auto ;
+}
+.header-text{
+  color: #1D1D1B;
+
+}
+.nav-items{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+}
+.btn{
+background: #003591;
+border-radius: 3px;
+width: 180px;
+height: 48px;
+}
+
+.box-bg{
+  background: #003591;
+}
+
+.box-text{
+  font-family: 'Roboto';
+font-style: italic;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+.box-btn{
+background: #05B4FF;
+border-radius: 3px;
+width: 210px;
+height: 42px;
+
+}
+.heading{
+  width: 300px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+text-transform: capitalize;
+
+/* Dark */
+
+color: #1D1D1B;
+}
+.para{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+/* or 167% */
+
+
+/* Text Color */
+
+color: #494949;
+}
+.sol-btn{
+  width: 210px;
+height: 52px;
+
+/* Blue */
+
+background: #003591;
+border-radius: 3px;
+}
+
+body {
+   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
