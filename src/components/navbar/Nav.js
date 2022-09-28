@@ -5,14 +5,14 @@ const Nav = () => {
   return (
     <div className="bg-white mt-10">
       <section className="container">
-        <div className="main-nav flex flex-row justify-around">
+        <div className=" flex flex-row justify-around">
           <div>
             <a href="">
               <img src={Logo} alt="" />
             </a>
           </div>
           <div className="nav-items py-4">
-            <ul className="flex flex-row space-x-3">
+            <ul className="flex flex-row flex-wrap space-x-3">
               <li>
                 <a href="">OUR SOLUTIONS</a>
               </li>
