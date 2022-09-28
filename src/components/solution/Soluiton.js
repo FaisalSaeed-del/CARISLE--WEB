@@ -27,9 +27,12 @@ const Soluiton = () => {
             </div>
             <div>
               <img src={BOX3} alt="" />
-
-              <img src={Rec} alt="" className="relative bottom-[200px]" />
-              <span> Hello World</span>
+              <div className="relative w-[200px] ">
+                <img src={Rec} alt="" className="relative bottom-[200px]" />
+                <span className=" w-[115px] px-10 py-10 text-white text-[24px] absolute bottom-60">
+                  Interactive Product World <br />
+                </span>
+              </div>
             </div>
           </div>
         </div>

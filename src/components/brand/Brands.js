@@ -20,18 +20,22 @@ const Brands = () => {
           </span>
         </div>
         <div className="flex flex-wrap flex-row justify-around">
-          <img src={B1} alt="" />
-
-          <img src={B2} alt="" />
-          <img src={B3} alt="" />
-          <img src={B4} alt="" />
-        </div>
-        <div className="relative bottom-7 flex flex-row justify-around">
-          <img src={Sticker1} alt="" />
-
-          <img src={Sticker2} alt="" />
-          <img src={Sticker3} alt="" />
-          <img src={Sticker4} alt="" />
+          <div className="relative">
+            <img src={B1} alt="" />
+            <img src={Sticker1} alt="" className="absolute bottom-7 left-7" />
+          </div>
+          <div className="relative">
+            <img src={B2} alt="" />
+            <img src={Sticker2} alt="" className="absolute bottom-7 left-7" />
+          </div>
+          <div className="relative">
+            <img src={B3} alt="" />
+            <img src={Sticker3} alt="" className="absolute bottom-7 left-7" />
+          </div>
+          <div className="relative">
+            <img src={B4} alt="" />
+            <img src={Sticker4} alt="" className="absolute bottom-7 left-7" />
+          </div>
         </div>
       </section>
     </div>

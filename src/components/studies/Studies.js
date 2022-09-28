@@ -3,7 +3,7 @@ import Img2 from "../assets/images/studies.png";
 
 const Studies = () => {
   return (
-    <div>
+    <div className="blog">
       <section className="container">
         <div className="relative">
           <div className="">
