@@ -7,7 +7,7 @@ const Help = () => {
   return (
     <div>
       <section className="contianer">
-        <div className="p-32 gap-x-6 grid grid-cols-3">
+        <div className="p-32 gap-x-6 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
           <div>
             <div className="text-[42px] text-blue-600">
               <h1>How can we help?</h1>
