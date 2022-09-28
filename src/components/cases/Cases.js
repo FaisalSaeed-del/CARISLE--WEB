@@ -4,15 +4,15 @@ const Cases = () => {
   return (
     <div>
       <section className="container">
-        <div className="flex flex-row flex-wrap justify-around">
+        <div className="p-20 grid grid-cols-2">
           <div>
             <img src={BOX5} alt="" />
           </div>
           <div>
-            <div className="heading">
+            <div className="max-w-[289x] text-[42px] font-bold">
               <h1>We are Carlisle</h1>
             </div>
-            <div className="w-[500px]">
+            <div className="max-w-[600px]">
               <p className="para">
                 While enhancing your skills at the CARLISLE® Academy, you will
                 learn about our RESITRIX®, HERTALAN®, ALUTRIX®, HARDCAST® and

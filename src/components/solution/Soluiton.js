@@ -6,9 +6,9 @@ const Soluiton = () => {
     <div>
       <section className="container">
         <div className="px-10">
-          <div className="flex flex-row justify-around py-10 ">
-            <div>
-              <span className="heading">
+          <div className="p-20 grid grid-cols-2 py-10 ">
+            <div className="w-[495px]">
+              <span className=" heading">
                 A complete waterproofing solution for your entire building
               </span>
 

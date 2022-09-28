@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -8,6 +10,7 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  font-family: "roboto";
 }
 
 .container{
@@ -55,6 +58,7 @@ background: #05B4FF;
 border-radius: 3px;
 width: 210px;
 height: 42px;
+margin: 10px;
 
 }
 .heading{

@@ -77,11 +77,9 @@ const Post = () => {
               </div>
             </div>
           </div>
-          <div className="text-center">
-            <button className="sol-btn text-white text-xl">
-              VIEW ALL POSTS
-            </button>
-          </div>
+        </div>
+        <div className="flex justify-center">
+          <button className="sol-btn text-white text-xl">VIEW ALL POSTS</button>
         </div>
       </section>
     </div>
