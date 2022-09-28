@@ -5,16 +5,18 @@ const Details = () => {
   return (
     <div className="bg-white">
       <section className="container">
-        <div className="py-20 px-56 ">
+        <div className=" p-20">
           <div className="bg-white ">
-            <div className="w-[1200px] p-20 shadwo-xl shadow-black  bg-gray-300  ">
-              <div className="flex flex-row  space-x-20 ">
+            <div className="p-10 shadwo-xl shadow-black  bg-gray-300">
+              <div className="grid grid-cols-2">
                 <div>
                   <img src={BOX7} alt="" />
                 </div>
                 <div>
-                  <h1 className="heading">Das Multitalent für jedes Dach</h1>
-                  <div className="w-[550px] text-[16px] ">
+                  <h1 className="text-[24px] text-blue-900 mb-[20px] max-w-[337px]">
+                    Das Multitalent für jedes Dach
+                  </h1>
+                  <div className="max-w-[550px] text-[16px] ">
                     <p>
                       RESITRIX® ist die einzige Dichtungsbahn, die in einer
                       beispiellosen Materialkombination aus dem

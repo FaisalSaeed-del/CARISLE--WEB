@@ -21,13 +21,13 @@ const Studies = () => {
         </div>
       </section>
       <div>
-        <div className="relative sm:flex-shrink bottom-44 w-[1200px] m-auto p-20">
+        <div className="relative sm:flex-shrink bottom-44 w-[1230px] m-auto p-20">
           <div className="bg-white p-10 shadow-lg shadow-white  border-4 border-gray-100">
             <h1 className="text-xl font-bold mb-2">
               Horticultural Show Schwäbisch Gmünd{" "}
             </h1>
             <div className="flex flex-row justify-between">
-              <div>
+              <div className="max-w-[900px]">
                 <p>
                   Teaching and research at the Institute for Computational
                   Design (ICD) at the University of Stuttgart focus on
@@ -35,9 +35,9 @@ const Studies = () => {
                   in..
                 </p>
               </div>
-              <div className="px-1">
-                <button className="box-btn text-white  text-xl">
-                  DETIALS FOR STUDIES{" "}
+              <div className="">
+                <button className="box-btn max-w-[150px] text-white  text-[16px]">
+                  Learn More
                 </button>
               </div>
             </div>

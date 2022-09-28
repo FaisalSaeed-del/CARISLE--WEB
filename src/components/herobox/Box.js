@@ -1,45 +1,46 @@
 import React from "react";
 import BOX1 from "../assets/images/group.png";
 import BOX2 from "../assets/images/group1.png";
+import NOISY from "../assets/images/noisy.png";
 
 const Box = () => {
   return (
-    <div className="bg-white max-w-[1230px]">
-      <section>
-        <div className="main-hero "></div>
-      </section>
-      <div className="p-40">
-        <div className="bg-white  relative bottom-60 shadow-lg shadow-gray-500  border-gray-500 flex-row flex">
-          <div className="flex flex-col max-w-[350px] py-5 px-5">
-            <div className="box-bg text-[32px] w-[350px] px-4 text-white">
-              <span>EPDM solutions for flat roofs, façades and buildings</span>
-            </div>
-            <p className=" max-w-[293px] py-3">
-              Whether it be a roof terrace, living roof or stylish façade,
-              waterproofing of buildings or a garden pond – EPDM products from
-              CARLISLE® CM Europe are as diverse as your construction projects.
-            </p>
-          </div>
-          <div>
-            <div className=" py-10  px-32">
-              <h1 className="text-2xl font-bold ">
-                What Is Your Project About
-              </h1>
-              <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 space-x-[24px]  border-blue-100 px-2 py-5 ">
-                <div className=" ">
-                  <img src={BOX1} alt="" />
+    <div className="">
+      <section className="container">
+        <div className=" p-20 ">
+          <div className="hero-bg">
+            <div className="grid grid-cols-2">
+              <div>
+                <div className=" relative">
+                  <img src={NOISY} alt="" className="w-[350px] h-[300px]" />
+                  <div className="text-white max-w-[293px] absolute bottom-36 ml-4 text-[32px]">
+                    <h2>
+                      EPDM solutions for flat roofs, façades and buildings
+                    </h2>
+                  </div>
                 </div>
-                <div className="">
-                  <img src={BOX2} alt="" />
+                <div></div>
+              </div>
+              <div>
+                <div>
+                  <h1>What About Your Project</h1>
                 </div>
-                <div className="">
-                  <img src={BOX1} alt="" />
+                <div className="grid grid-cols-3 px-14 py-10">
+                  <div className="border-4 flex justify-center bg-white ">
+                    <img src={BOX1} alt="" />
+                  </div>
+                  <div className="border-4 flex justify-center bg-gray-300 ">
+                    <img src={BOX1} alt="" />
+                  </div>
+                  <div className="border-4 flex justify-center bg-gray-300 ">
+                    <img src={BOX1} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

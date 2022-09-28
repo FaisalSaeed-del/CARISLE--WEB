@@ -19,7 +19,7 @@ const Brands = () => {
             bibendum laoreet.
           </span>
         </div>
-        <div className="flex flex-wrap flex-row justify-around">
+        <div className="grid grid-cols-4 px-20 ">
           <div className="relative">
             <img src={B1} alt="" />
             <img src={Sticker1} alt="" className="absolute bottom-7 left-7" />
