@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-3 gap-5 ">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  gap-5 ">
               <div className="flex flex-col p-10 ">
                 <div className="text-white text-xl mb-5">
                   <h1>Go Direct to</h1>
