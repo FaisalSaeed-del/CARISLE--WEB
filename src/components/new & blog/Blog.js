@@ -12,7 +12,7 @@ const Blog = () => {
         </div>
       </section>
       <div className="py-10 px-32 ">
-        <div className="grid md:grid-cols-2 sm:grid-cols-1 h-[390px]  bg-white border-white border-4 rounder-full">
+        <div className="grid md:grid-cols-2 sm:grid-cols-1   bg-white border-white border-4 rounder-full">
           <div className="w-[700px] ">
             <img src={BLOG} alt="" />
           </div>
@@ -25,8 +25,10 @@ const Blog = () => {
               Schools & Academies Show at the NEC, Birmingham. It is one of the
               UK’s leading education policy and best-practice events.
             </p>
-            <div className="mt-10">
-              <button className="sol-btn text-white text-xl">Read More</button>
+            <div className="">
+              <button className="sol-btn mt-10 text-white text-xl">
+                Read More
+              </button>
             </div>
           </div>
         </div>

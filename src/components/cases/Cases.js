@@ -4,7 +4,7 @@ const Cases = () => {
   return (
     <div>
       <section className="container">
-        <div className="flex flex-row justify-around">
+        <div className="flex flex-row flex-wrap justify-around">
           <div>
             <img src={BOX5} alt="" />
           </div>

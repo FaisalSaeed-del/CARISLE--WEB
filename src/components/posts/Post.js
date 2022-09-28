@@ -9,7 +9,7 @@ const Post = () => {
     <div className="blog">
       <section className="container">
         <div>
-          <div className="p-32 flex flex-row justify-between ">
+          <div className="p-32 flex flex-row flex-wrap justify-between ">
             <div className="w-[400px] ">
               <img src={POST1} alt="" />
               <div className="bg-white p-10">

@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="box-bg">
       <section className="container">
         <div>
-          <div className="p-14 flex flex-row justify-around">
+          <div className="p-14 flex flex-row flex-wrap justify-around">
             <div className="flex flex-col">
               <div>
                 <img src={Logo} alt="" />
