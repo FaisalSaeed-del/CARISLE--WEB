@@ -2,6 +2,7 @@ import React from "react";
 import POST1 from "../assets/images/post1.png";
 import POST2 from "../assets/images/post2.png";
 import POST3 from "../assets/images/post3.png";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const Post = () => {
   return (
@@ -23,8 +24,11 @@ const Post = () => {
                     the Schools & Academies Show at the NEC, Birmingham..
                   </p>
                 </div>
-                <div>
+                <div className="flex flex-row">
                   <span className="text-blue-800 text-xl">Read More</span>
+                  <a href="" className="text-blue-800 py-2 px-2 text-xl">
+                    <HiOutlineArrowNarrowRight />
+                  </a>
                 </div>
               </div>
             </div>
@@ -42,8 +46,11 @@ const Post = () => {
                     the Schools & Academies Show at the NEC, Birmingham..
                   </p>
                 </div>
-                <div>
+                <div className="flex flex-row">
                   <span className="text-blue-800 text-xl">Read More</span>
+                  <a href="" className="text-blue-800 py-2 px-2 text-xl">
+                    <HiOutlineArrowNarrowRight />
+                  </a>
                 </div>
               </div>
             </div>
@@ -61,8 +68,11 @@ const Post = () => {
                     the Schools & Academies Show at the NEC, Birmingham..
                   </p>
                 </div>
-                <div>
+                <div className="flex flex-row">
                   <span className="text-blue-800 text-xl">Read More</span>
+                  <a href="" className="text-blue-800 py-2 px-2 text-xl">
+                    <HiOutlineArrowNarrowRight />
+                  </a>
                 </div>
               </div>
             </div>

@@ -33,7 +33,7 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <div className="btn text-center py-3  font-bold text-white">
+          <div className=" btn text-center py-3 md:py-1  font-bold text-white">
             <a href="">SOLUTIONS FINDER</a>
           </div>
         </div>

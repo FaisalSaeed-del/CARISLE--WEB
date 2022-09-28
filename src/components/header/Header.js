@@ -24,11 +24,11 @@ const Header = () => {
                 <input
                   type="search"
                   id="first_name"
-                  class=" bg-white border border-gray-300 text-gray-900 text-sm rounded-sm w-56 p-1  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
+                  className=" bg-white border border-gray-300 text-gray-900 text-sm rounded-sm w-56 h-10 p-1  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white"
                   placeholder="Search..."
                   required
                 />
-                <div className="relative right-10 top-3">
+                <div className="relative text-xl right-10 top-3">
                   <a href="">
                     <FiSearch />
                   </a>

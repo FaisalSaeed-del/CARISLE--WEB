@@ -6,10 +6,10 @@ const Box = () => {
   return (
     <div className="bg-white">
       <section>
-        <div className="main-hero"></div>
+        <div className="main-hero "></div>
       </section>
       <div className="p-40">
-        <div className="bg-white relative bottom-60 shadow-lg shadow-gray-500  border-gray-500 flex-row flex">
+        <div className="bg-white  relative bottom-60 shadow-lg shadow-gray-500  border-gray-500 flex-row flex">
           <div className="flex flex-col w-[350px] py-5 px-5">
             <div className="box-bg text-[32px] w-[350px] px-4 text-white">
               <span>EPDM solutions for flat roofs, façades and buildings</span>
