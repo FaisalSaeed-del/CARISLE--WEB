@@ -12,7 +12,7 @@ const Soluiton = () => {
                 A complete waterproofing solution for your entire building
               </span>
 
-              <div className="w-[500px]">
+              <div className="">
                 <p className="para">
                   Whether it be high up on a flat roof or down in an underground
                   garage, our EPDM products and sealants offer a wide range of

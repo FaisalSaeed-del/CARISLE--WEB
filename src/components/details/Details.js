@@ -8,7 +8,7 @@ const Details = () => {
         <div className="py-20 px-56 ">
           <div className="bg-white ">
             <div className="w-[1200px] p-20 shadwo-xl shadow-black  bg-gray-300  ">
-              <div className="flex flex-row flex-wrap space-x-20 ">
+              <div className="flex flex-row  space-x-20 ">
                 <div>
                   <img src={BOX7} alt="" />
                 </div>

@@ -4,7 +4,7 @@ const Rectangle = () => {
   return (
     <div className="box-bg">
       <section className="container">
-        <div className="flex flex-row justify-around py-14">
+        <div className="flex flex-row flex-wrap justify-around py-14">
           <div className="box-text">
             <h3>We will be on the Digital Bau - Hall 1.2 - on 31.05.2022</h3>
           </div>

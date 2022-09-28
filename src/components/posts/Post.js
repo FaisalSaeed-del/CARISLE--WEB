@@ -54,7 +54,7 @@ const Post = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[400px] ">
+            <div className="w-[400px] sm:mt-3  ">
               <img src={POST3} alt="" />
               <div className="bg-white p-10">
                 <div>

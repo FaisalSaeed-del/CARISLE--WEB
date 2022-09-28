@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <section className="container">
-        <div className="main-headerc flex flex-row justify-between border-b-2 flex-wrap">
+        <div className=" flex flex-row justify-between border-b-2 flex-wrap">
           <div className="bg-white"></div>
           <div>
             <navbar>

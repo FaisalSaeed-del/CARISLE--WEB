@@ -12,7 +12,7 @@ const Blog = () => {
         </div>
       </section>
       <div className="py-10 px-32 ">
-        <div className="grid md:grid-cols-2 sm:grid-cols-1   bg-white border-white border-4 rounder-full">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1  bg-white border-white border-4 rounder-full">
           <div className="w-[700px] ">
             <img src={BLOG} alt="" />
           </div>
