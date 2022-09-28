@@ -21,7 +21,7 @@ const Studies = () => {
         </div>
       </section>
       <div>
-        <div className="relative bottom-44 w-[1200px] m-auto p-20">
+        <div className="relative sm:flex-shrink bottom-44 w-[1200px] m-auto p-20">
           <div className="bg-white p-10 shadow-lg shadow-white  border-4 border-gray-100">
             <h1 className="text-xl font-bold mb-2">
               Horticultural Show Schwäbisch Gmünd{" "}
