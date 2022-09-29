@@ -2,7 +2,6 @@ import React from "react";
 import BOX1 from "../assets/images/group.png";
 import BOX2 from "../assets/images/group1.png";
 import BOX3 from "../assets/images/group2.png";
-import NOISY from "../assets/images/noisy.png";
 import R1 from "../assets/images/arr1.png";
 import R2 from "../assets/images/arr2.png";
 
@@ -11,16 +10,16 @@ const Box = () => {
     <div className="relative">
       <section className="container">
         <div className=" py-56 px-32">
-          <div className="hero-bg w-[1230px] absolute  bottom-1">
-            <div className="py-14 px-10 grid grid-cols-3">
+          <div className="hero-bg  absolute  bottom-1">
+            <div className="py-14 px-10 gap-8 grid grid-cols-3">
               <div>
                 <div className="col-span-1">
                   <div className=" box-bg text-white max-w-[293px] mb-[26px] ">
-                    <h2 className="text-[32px] ml-4">
+                    <h2 className="text-[32px] font-bold ml-4">
                       EPDM solutions for flat roofs, façades and buildings
                     </h2>
                   </div>
-                  <div className="max-w-[293px] mb-[50px] ml-[24px]">
+                  <div className="max-w-[293px] mb-[50px] ml-[16px]">
                     <p>
                       Whether it be a roof terrace, living roof or stylish
                       façade, waterproofing of buildings or a garden pond – EPDM
@@ -54,12 +53,12 @@ const Box = () => {
                     <img src={BOX3} alt="" />
                   </div>
                 </div>
-                <div className="grid grid-cols-3 ">
-                  <div className="flex  py-16 space-x-[20px]">
+                <div className="flex flex-row justify-between">
+                  <div className="flex mt-6 py-16 space-x-[20px]">
                     <img src={R1} alt="" />
                     <img src={R2} alt="" />
                   </div>
-                  <div className="flex justify-center  orange-btn">
+                  <div className="flex justify-center mt-10 orange-btn">
                     <button className="text-white text-[16px] ">
                       Find Solution
                     </button>
