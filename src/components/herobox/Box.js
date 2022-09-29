@@ -46,23 +46,23 @@ const Box = () => {
                   <h1 className="text-center">What About Your Project</h1>
                 </div>
                 <div className="grid grid-cols-3 ">
-                  <div className=" flex justify-center  ">
+                  <div className=" flex justify-around">
                     <img src={BOX1} alt="" />
                   </div>
-                  <div className=" flex justify-center  ">
+                  <div className=" flex justify-around  ">
                     <img src={BOX2} alt="" />
                   </div>
-                  <div className=" flex justify-center">
+                  <div className=" flex justify-around  ">
                     <img src={BOX3} alt="" />
                   </div>
                 </div>
-                <div className="flex flex-row flex-wrap justify-around">
-                  <div className="py-14 flex flex-row space-x-[20px]">
+                <div className="grid grid-cols-2 ">
+                  <div className="flex flex-row py-16 space-x-[20px]">
                     <img src={R1} alt="" />
                     <img src={R2} alt="" />
                   </div>
-                  <div className="flex justify-center orange-btn">
-                    <button className="max-w-[95px] text-white text-[16px] ">
+                  <div className="flex justify-center  orange-btn">
+                    <button className="text-white text-[16px] ">
                       Find Solution
                     </button>
                   </div>
