@@ -44,13 +44,25 @@ const Box = () => {
                 </div>
                 <div className="grid grid-cols-3 ">
                   <div className=" flex justify-around">
-                    <img src={BOX1} alt="" />
+                    <img
+                      src={BOX1}
+                      alt=""
+                      className="min-w-[80px] max-w-[80px]"
+                    />
                   </div>
                   <div className=" flex justify-around  ">
-                    <img src={BOX2} alt="" />
+                    <img
+                      src={BOX2}
+                      alt=""
+                      className="min-w-[80px] max-w-[80px]"
+                    />
                   </div>
                   <div className=" flex justify-around  ">
-                    <img src={BOX3} alt="" />
+                    <img
+                      src={BOX3}
+                      alt=""
+                      className="min-w-[80px] max-w-[80px]"
+                    />
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
@@ -58,8 +70,8 @@ const Box = () => {
                     <img src={R1} alt="" />
                     <img src={R2} alt="" />
                   </div>
-                  <div className="flex justify-center mt-10 orange-btn">
-                    <button className="text-white text-[16px] ">
+                  <div className=" flex justify-center mt-10 orange-btn">
+                    <button className="text-white  text-[16px] ">
                       Find Solution
                     </button>
                   </div>
