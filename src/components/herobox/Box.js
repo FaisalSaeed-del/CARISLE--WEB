@@ -14,10 +14,9 @@ const Box = () => {
           <div className="hero-bg w-[1230px] absolute bottom-1 ">
             <div className=" flex flex-row">
               <div>
-                <div className="relative">
-                  <img src={NOISY} alt="" className="p-8" />
-                  <div className="text-white absolute bottom-36 ml-4 ">
-                    <h2 className="text-[28px]">
+                <div className="p-10">
+                  <div className=" box-bg text-white max-w-[293px] mb-[26px] ">
+                    <h2 className="text-[32px] ml-4">
                       EPDM solutions for flat roofs, façades and buildings
                     </h2>
                   </div>
