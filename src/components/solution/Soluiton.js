@@ -20,8 +20,8 @@ const Soluiton = () => {
                     wide range of applications. Let us inspire you!
                   </p>
                 </div>
-                <div className="py-10">
-                  <button className="sol-btn py-2 text-white">
+                <div className="mt-[54px]">
+                  <button className="sol-btn text-[16px] text-white">
                     DISCOVER OUR SOLUTIONS
                   </button>
                 </div>
@@ -29,9 +29,9 @@ const Soluiton = () => {
             </div>
             <div>
               <img src={BOX3} alt="" />
-              <div className="relative  w-[200px] ">
+              <div className="relative w-[200px] ">
                 <img src={Rec} alt="" className=" relative bottom-[200px] " />
-                <span className=" w-[115px] px-10 py-10 text-white text-[24px] absolute bottom-60">
+                <span className=" px-10 py-10 text-white text-[24px] absolute bottom-60">
                   Interactive Product World <br />
                 </span>
               </div>

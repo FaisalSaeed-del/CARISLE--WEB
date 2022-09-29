@@ -13,13 +13,15 @@ const Brands = () => {
     <div>
       <section className="container">
         <div className="py-20 px-36">
-          <h1 className="text-3xl font-bold text-black">OUR BRANDS</h1>
-          <span className="text-xl text-black ">
-            Lorem ipsum dolor sit amet, coctetur adipiscing elit. Aenean euismod
-            bibendum laoreet.
-          </span>
+          <h1 className="text-[42px] font-bold text-black">OUR BRANDS</h1>
+          <div className="max-w-[630px]">
+            <p className="text-xl text-black text-[16px] ">
+              Lorem ipsum dolor sit amet, coctetur adipiscing elit. Aenean
+              euismod bibendum laoreet.
+            </p>
+          </div>
         </div>
-        <div className="grid grid-cols-4 px-20 ">
+        <div className="grid grid-cols-4 px-36 ">
           <div className="relative">
             <img src={B1} alt="" />
             <img src={Sticker1} alt="" className="absolute bottom-7 left-7" />

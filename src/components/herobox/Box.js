@@ -8,15 +8,15 @@ import R2 from "../assets/images/arr2.png";
 
 const Box = () => {
   return (
-    <div className="">
+    <div className="relative">
       <section className="container">
-        <div className=" p-20 ">
-          <div className="hero-bg">
-            <div className="flex flex-row ">
+        <div className=" p-32  ">
+          <div className="hero-bg w-[1230px] absolute bottom-1 ">
+            <div className=" flex flex-row">
               <div>
-                <div className=" relative">
+                <div className="relative">
                   <img src={NOISY} alt="" className="p-8" />
-                  <div className="text-white max-w-[293px] absolute bottom-36 ml-4 ">
+                  <div className="text-white absolute bottom-36 ml-4 ">
                     <h2 className="text-[28px]">
                       EPDM solutions for flat roofs, façades and buildings
                     </h2>
