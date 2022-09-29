@@ -9,10 +9,10 @@ const Cases = () => {
             <img src={BOX5} alt="" />
           </div>
           <div className="py-10">
-            <div className="max-w-[289x] text-[42px] font-bold">
+            <div className="max-w-[289x] text-[42px] ml-[187px] font-bold">
               <h1>We are Carlisle</h1>
             </div>
-            <div className="max-w-[600px] mr-[187px]">
+            <div className="max-w-[600px] ml-[187px]">
               <p className="para">
                 While enhancing your skills at the CARLISLE® Academy, you will
                 learn about our RESITRIX®, HERTALAN®, ALUTRIX®, HARDCAST® and
@@ -22,7 +22,7 @@ const Cases = () => {
                 operations.
               </p>
             </div>
-            <div className="py-10">
+            <div className="py-10 ml-[187px]">
               <button className="sol-btn text-white text-xl">
                 VIEW ALL CASES
               </button>

@@ -21,7 +21,7 @@ const Brands = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-4 px-36 ">
+        <div className="grid grid-cols-4 gap-6 px-36 ">
           <div className="relative">
             <img src={B1} alt="" />
             <img src={Sticker1} alt="" className="absolute bottom-7 left-7" />
