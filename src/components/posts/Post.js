@@ -8,8 +8,8 @@ const Post = () => {
   return (
     <div className="blog">
       <section className="container">
-        <div>
-          <div className="p-32 flex flex-row flex-wrap justify-between ">
+        {/* <div>
+          <div className="flex flex-row flex-wrap justify-between ">
             <div className="w-[400px] ">
               <img src={POST1} alt="" />
               <div className="bg-white p-10">
@@ -80,7 +80,7 @@ const Post = () => {
         </div>
         <div className="flex justify-center">
           <button className="sol-btn text-white text-xl">VIEW ALL POSTS</button>
-        </div>
+        </div> */}
       </section>
     </div>
   );

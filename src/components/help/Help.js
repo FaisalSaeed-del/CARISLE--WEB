@@ -7,49 +7,52 @@ const Help = () => {
   return (
     <div>
       <section className="contianer">
-        <div className="p-32 gap-x-6 md:mt-3 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-          <div>
-            <div className="text-[42px] text-blue-600">
-              <h1>How can we help?</h1>
-            </div>
-            <div className="w-[290px]">
-              <p>
-                Waterproof EPDM solutions for flat roofs, façades and buildings
-              </p>
-            </div>
-          </div>
-          <div>
-            <div className="text-[24px]">
-              <h2>Have any Question?</h2>
-            </div>
-            <p>if you have any question feel free to contact</p>
-            <div className="flex flex-row space-x-2 mt-2">
-              <a href="">
-                <FcPhone />
-              </a>
-              <span>+913xxxxxxxx-xx</span>
-            </div>
-            <div className="flex flex-row space-x-2">
-              <a href="">
-                <MdMarkEmailRead />
-              </a>
-              <span>xyz@gmail.com</span>
-            </div>
-          </div>
-          <div>
+        <div>
+          <div className=" p-20 grid grid-cols-3 ">
             <div>
-              <div className="relative">
-                <img src={NOISY} alt="" />
-                <div className="absolute bottom-14 left-3 text-xl text-white">
-                  <p>NEED AN ADVICE?</p>
+              <div className="text-[42px]  text-blue-600">
+                <h1>How can we help?</h1>
+              </div>
+              <div className="max-w-[290px]">
+                <p>
+                  Waterproof EPDM solutions for flat roofs, façades and
+                  buildings
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="text-[24px] ">
+                <h2>Have any Question?</h2>
+              </div>
+              <p>if you have any question feel free to contact</p>
+              <div className="mt-[50px] text-[16px] font-bold flex flex-row space-x-2">
+                <a href="">
+                  <FcPhone />
+                </a>
+                <span>+913xxxxxxxx-xx</span>
+              </div>
+              <div className="mt-[40px] text-[16px] font-bold flex flex-row space-x-2">
+                <a href="">
+                  <MdMarkEmailRead />
+                </a>
+                <span>xyz@gmail.com</span>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div className="relative">
+                  <img src={NOISY} alt="" />
+                  <div className="absolute bottom-14 left-5 top-2 text-[24px] text-white">
+                    <p>NEED AN ADVICE?</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex flex-row space-x-2">
-                <img src={MEN} alt="" />
-                <span>If you want advice feel free to contact</span>
-              </div>
-              <div className="px-16 text-xl text-white">
-                <button className="box-btn">REQUEST ADVICE</button>
+                <div className="flex flex-row space-x-2">
+                  <img src={MEN} alt="" />
+                  <span>If you want advice feel free to contact</span>
+                </div>
+                <div className="mb-[100px] px-16 text-[14px] text-white">
+                  <button className="box-btn">REQUEST ADVICE</button>
+                </div>
               </div>
             </div>
           </div>

@@ -9,8 +9,8 @@ import Cases from "./components/cases/Cases";
 import Brands from "./components/brand/Brands";
 import Details from "./components/details/Details";
 import Studies from "./components/studies/Studies";
-import Blog from "./components/new & blog/Blog";
-import Post from "./components/posts/Post";
+// import Blog from "./components/new & blog/Blog";
+// import Post from "./components/posts/Post";
 import Help from "./components/help/Help";
 import Footer from "./components/footer/Footer";
 import Stdbox from "./components/studybox/Stdbox";
@@ -29,8 +29,6 @@ function App() {
       <Details />
       <Studies />
       <Stdbox />
-      <Blog />
-      <Post />
       <Help />
       <Footer />
     </div>

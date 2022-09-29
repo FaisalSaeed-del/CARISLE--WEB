@@ -1,5 +1,9 @@
 import React from "react";
 import BLOG from "../assets/images/blog.png";
+import POST1 from "../assets/images/post1.png";
+import POST2 from "../assets/images/post2.png";
+import POST3 from "../assets/images/post3.png";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const Stdbox = () => {
   return (
@@ -67,6 +71,85 @@ const Stdbox = () => {
               </section>
             </div>
             {/* FINISHING LINE NEWS SECTION */}
+            <div className="mt-[32px]">
+              {/* ==================== POSET SECTION============ */}
+              <div className=" grid grid-cols-3 gap-32 ">
+                <div className="w-[390px] ">
+                  <img src={POST1} alt="" />
+                  <div className="bg-white p-10">
+                    <div className="max-w-[340px]">
+                      <h1 className="text-2xl font-bold">
+                        CARLISLE welcomes delegates at the Schools & Academies
+                        Show
+                      </h1>
+                      <p>
+                        Team CARLISLE CM Europe are welcoming delegates
+                        attending the Schools & Academies Show at the NEC,
+                        Birmingham..
+                      </p>
+                    </div>
+
+                    <div className="flex flex-row">
+                      <span className="text-blue-800 text-xl">Read More</span>
+                      <a href="" className="text-blue-800 py-2 px-2 text-xl">
+                        <HiOutlineArrowNarrowRight />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-[390px] ">
+                  <img src={POST2} alt="" />
+                  <div className="bg-white p-10">
+                    <div className="max-w-[340px]">
+                      <h1 className="text-2xl font-bold">
+                        CARLISLE welcomes delegates at the Schools & Academies
+                        Show
+                      </h1>
+                      <p>
+                        Team CARLISLE CM Europe are welcoming delegates
+                        attending the Schools & Academies Show at the NEC,
+                        Birmingham..
+                      </p>
+                    </div>
+
+                    <div className="flex flex-row">
+                      <span className="text-blue-800 text-xl">Read More</span>
+                      <a href="" className="text-blue-800 py-2 px-2 text-xl">
+                        <HiOutlineArrowNarrowRight />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-[390px]  ">
+                  <img src={POST3} alt="" />
+                  <div className="bg-white p-10">
+                    <div className="max-w-[340px]">
+                      <h1 className="text-2xl font-bold">
+                        CARLISLE welcomes delegates at the Schools & Academies
+                        Show
+                      </h1>
+                      <p>
+                        Team CARLISLE CM Europe are welcoming delegates
+                        attending the Schools & Academies Show at the NEC,
+                        Birmingham..
+                      </p>
+                    </div>
+                    <div className="max-w-[340px]"></div>
+                    <div className="flex flex-row">
+                      <span className="text-blue-800 text-xl">Read More</span>
+                      <a href="" className="text-blue-800 py-2 px-2 text-xl">
+                        <HiOutlineArrowNarrowRight />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-center mt-[55px]">
+              <button className="sol-btn text-white text-[16px] font-bold">
+                VIEW ALL POSTS
+              </button>
+            </div>
           </div>
         </div>
       </section>
