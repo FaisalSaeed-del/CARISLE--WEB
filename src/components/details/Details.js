@@ -5,7 +5,7 @@ const Details = () => {
   return (
     <div className="bg-white">
       <section className="container">
-        <div className=" p-16">
+        <div className=" py-10 px-36">
           <div className=" bg-white ">
             <div className="shadwo-xl shadow-black  bg-gray-300">
               <div className="py-5 px-5 flex flex-row space-x-[44px]">
@@ -26,7 +26,7 @@ const Details = () => {
                     </p>
                   </div>
                   <div className="py-10">
-                    <button className="sol-btn text-white text-2xl">
+                    <button className="sol-btn text-white text-[14px]">
                       MORE DETAILS
                     </button>
                   </div>

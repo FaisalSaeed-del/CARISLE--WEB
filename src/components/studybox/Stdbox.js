@@ -100,7 +100,9 @@ const Stdbox = () => {
                     </div>
 
                     <div className="flex flex-row">
-                      <span className="text-blue-800 text-xl">Read More</span>
+                      <span className="text-blue-800 text-[14px]">
+                        Read More
+                      </span>
                       <a href="" className="text-blue-800 py-2 px-2 text-xl">
                         <HiOutlineArrowNarrowRight />
                       </a>
@@ -166,7 +168,7 @@ const Stdbox = () => {
               </div>
             </div>
             <div className="flex justify-center mt-[55px]">
-              <button className="sol-btn text-white text-[16px] font-bold">
+              <button className="sol-btn text-white text-[14px] font-bold">
                 VIEW ALL POSTS
               </button>
             </div>
