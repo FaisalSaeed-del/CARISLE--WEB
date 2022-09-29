@@ -3,6 +3,7 @@ import BLOG from "../assets/images/blog.png";
 import POST1 from "../assets/images/post1.png";
 import POST2 from "../assets/images/post2.png";
 import POST3 from "../assets/images/post3.png";
+import Date from "../assets/images/date.png";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const Stdbox = () => {
@@ -42,9 +43,13 @@ const Stdbox = () => {
                 </div>
                 <div>
                   <div className="flex flex-row justify-between bg-white">
-                    <div className="">
+                    <div className="relative">
                       <img src={BLOG} alt="" className="image" />
+                      <div className="absolute bottom-80">
+                        <img src={Date} alt="" />
+                      </div>
                     </div>
+
                     <div className="mt-[63px] mr-[68px]">
                       <div className="max-w-[376px]">
                         <h1 className="text-[24px] mb-5 ">
@@ -75,7 +80,12 @@ const Stdbox = () => {
               {/* ==================== POSET SECTION============ */}
               <div className=" grid grid-cols-3 gap-32 ">
                 <div className="w-[390px] ">
-                  <img src={POST1} alt="" />
+                  <div className="relative">
+                    <img src={POST1} alt="" />
+                    <div className="absolute bottom-44">
+                      <img src={Date} alt="" />
+                    </div>
+                  </div>
                   <div className="bg-white p-10">
                     <div className="max-w-[340px]">
                       <h1 className="text-2xl font-bold">
@@ -98,7 +108,12 @@ const Stdbox = () => {
                   </div>
                 </div>
                 <div className="w-[390px] ">
-                  <img src={POST2} alt="" />
+                  <div className="relative">
+                    <img src={POST2} alt="" />
+                    <div className="absolute bottom-44">
+                      <img src={Date} alt="" />
+                    </div>
+                  </div>
                   <div className="bg-white p-10">
                     <div className="max-w-[340px]">
                       <h1 className="text-2xl font-bold">
@@ -121,7 +136,12 @@ const Stdbox = () => {
                   </div>
                 </div>
                 <div className="w-[390px]  ">
-                  <img src={POST3} alt="" />
+                  <div className="relative">
+                    <img src={POST3} alt="" />
+                    <div className="absolute bottom-44">
+                      <img src={Date} alt="" />
+                    </div>
+                  </div>
                   <div className="bg-white p-10">
                     <div className="max-w-[340px]">
                       <h1 className="text-2xl font-bold">

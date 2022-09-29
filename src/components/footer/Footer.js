@@ -14,27 +14,29 @@ const Footer = () => {
               <div>
                 <img src={Logo} alt="" />
               </div>
-              <div className="text-white text-xl  w-[240px] py-20 ">
-                <h1 className="py-2">Construction Materials Ltd.</h1>
-                <p className="text-gray-300">
+              <div className="text-white text-xl  py-16 ">
+                <h1 className="py-2 max-w-[221px]">
+                  Construction Materials Ltd.
+                </h1>
+                <p className="text-gray-300 max-w-[224px] ">
                   Ground Floor, Lancaster House Fountain Court, Concorde Way
                   Millennium Business Park NG19 7DW Mansfield Nottinghamshire
                 </p>
-              </div>
-              <div>
-                <div className="text-2xl flex flex-row justify-between">
-                  <a href="" className="bg-stone-400">
-                    <FaLinkedinIn />
-                  </a>
-                  <a href="" className="bg-stone-400">
-                    <AiOutlineYoutube />
-                  </a>
-                  <a href="" className="bg-stone-400">
-                    <FiFacebook />
-                  </a>
-                  <a href="" className="bg-stone-400">
-                    <FiTwitter />
-                  </a>
+                <div className="mt-[50px]">
+                  <div className=" text-2xl flex flex-row justify-between">
+                    <a href="" className="">
+                      <FaLinkedinIn />
+                    </a>
+                    <a href="" className="">
+                      <AiOutlineYoutube />
+                    </a>
+                    <a href="" className="">
+                      <FiFacebook />
+                    </a>
+                    <a href="" className="">
+                      <FiTwitter />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

@@ -10,7 +10,7 @@ const Header = () => {
           <div>
             <navbar>
               <div className="flex flex-row bg-gray-200  space-x-3 py-1 ">
-                <ul className="header-text flex flex-row justify-between space-x-5  px-3 py-2 ">
+                <ul className="text-[14px] flex flex-row justify-between space-x-5  px-3 py-2 ">
                   <li>
                     <a href="">Contacts \</a>
                   </li>

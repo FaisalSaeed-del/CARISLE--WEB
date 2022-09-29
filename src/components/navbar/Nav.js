@@ -12,7 +12,7 @@ const Nav = () => {
             </a>
           </div>
           <div className="nav-items py-4">
-            <ul className="flex flex-row flex-wrap space-x-3">
+            <ul className="flex flex-row flex-wrap text-[14px] space-x-3">
               <li>
                 <a href="">OUR SOLUTIONS</a>
               </li>
@@ -33,7 +33,7 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <div className=" btn text-center lg:py-3 md:py-1  font-bold text-white">
+          <div className=" btn py-3 px-6  text-[14px] font-bold text-white">
             <a href="">SOLUTIONS FINDER</a>
           </div>
         </div>
