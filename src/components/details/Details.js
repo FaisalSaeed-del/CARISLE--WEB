@@ -5,14 +5,14 @@ const Details = () => {
   return (
     <div className="bg-white">
       <section className="container">
-        <div className=" p-20">
-          <div className="bg-white ">
-            <div className="p-10 shadwo-xl shadow-black  bg-gray-300">
-              <div className="grid grid-cols-2">
+        <div className=" p-16">
+          <div className=" bg-white ">
+            <div className="shadwo-xl shadow-black  bg-gray-300">
+              <div className="py-5 px-5 flex flex-row space-x-[44px]">
                 <div>
                   <img src={BOX7} alt="" />
                 </div>
-                <div>
+                <div className="">
                   <h1 className="text-[24px] text-blue-900 mb-[20px] max-w-[337px]">
                     Das Multitalent für jedes Dach
                   </h1>

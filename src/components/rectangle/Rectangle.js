@@ -10,7 +10,7 @@ const Rectangle = () => {
             <span>Hall 1.2 - on 31.05.2022</span>
           </div>
           <div className="">
-            <button className="box-btn max-w-[150px] text-white  text-[16px]">
+            <button className="box-btn max-w-[150px] text-white  text-[14px]">
               Learn More
             </button>
           </div>

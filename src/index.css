@@ -104,9 +104,37 @@ border: 1px solid rgba(0, 74, 149, 0.1);
 box-shadow: 0px 10px 20px rgba(0, 74, 149, 0.08);
 border-radius: 4px;
 }
+.image {
+  
+  
+clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
 body {
    -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.study-bg{
+  background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(0, 74, 149, 0.08);
+}
 
+.orange-btn{
+  width: 236px;
+height: 52px;
+
+/* Orange */
+
+background: #F59C00;
+border-radius: 3px;
+}
+
+.study-btn{
+  width: 150px;
+height: 42px;
+
+/* Blue */
+
+background: #003591;
+border-radius: 3px;
+}

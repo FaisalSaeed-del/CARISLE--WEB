@@ -13,6 +13,7 @@ import Blog from "./components/new & blog/Blog";
 import Post from "./components/posts/Post";
 import Help from "./components/help/Help";
 import Footer from "./components/footer/Footer";
+import Stdbox from "./components/studybox/Stdbox";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Brands />
       <Details />
       <Studies />
+      <Stdbox />
       <Blog />
       <Post />
       <Help />

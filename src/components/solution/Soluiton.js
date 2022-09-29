@@ -7,22 +7,24 @@ const Soluiton = () => {
       <section className="container">
         <div className="px-10">
           <div className="p-20 grid grid-cols-2 py-10 ">
-            <div className="w-[495px]">
-              <span className=" heading">
-                A complete waterproofing solution for your entire building
-              </span>
+            <div className="py-10">
+              <div className="max-w-[495px]">
+                <span className=" heading">
+                  A complete waterproofing solution for your entire building
+                </span>
 
-              <div className="">
-                <p className="para">
-                  Whether it be high up on a flat roof or down in an underground
-                  garage, our EPDM products and sealants offer a wide range of
-                  applications. Let us inspire you!
-                </p>
-              </div>
-              <div className="py-10">
-                <button className="sol-btn py-2 text-white">
-                  DISCOVER OUR SOLUTIONS
-                </button>
+                <div className="">
+                  <p className="para">
+                    Whether it be high up on a flat roof or down in an
+                    underground garage, our EPDM products and sealants offer a
+                    wide range of applications. Let us inspire you!
+                  </p>
+                </div>
+                <div className="py-10">
+                  <button className="sol-btn py-2 text-white">
+                    DISCOVER OUR SOLUTIONS
+                  </button>
+                </div>
               </div>
             </div>
             <div>

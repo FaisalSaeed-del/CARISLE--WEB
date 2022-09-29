@@ -4,11 +4,11 @@ const Cases = () => {
   return (
     <div>
       <section className="container">
-        <div className="px-10 grid grid-cols-2">
+        <div className="p-14 grid grid-cols-2">
           <div>
             <img src={BOX5} alt="" />
           </div>
-          <div>
+          <div className="py-10">
             <div className="max-w-[289x] text-[42px] font-bold">
               <h1>We are Carlisle</h1>
             </div>

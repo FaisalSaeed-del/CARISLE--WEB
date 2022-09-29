@@ -4,7 +4,7 @@ import BLOG from "../assets/images/blog.png";
 const Blog = () => {
   return (
     <div className="blog">
-      <section>
+      {/* <section>
         <div className="text-center text-[42px] text-black">
           <div>
             <h1>NEWS & BLOGS</h1>
@@ -14,7 +14,7 @@ const Blog = () => {
       <div className="py-10 px-32 ">
         <div className="grid lg:grid-cols-2 md:grid-cols-1  bg-white border-white border-4 rounder-full">
           <div className="w-[700px] ">
-            <img src={BLOG} alt="" />
+            <img src={BLOG} alt="" className="imager" />
           </div>
           <div className="px-28 py-20">
             <h1 className="text-[24px] mb-5 ">
@@ -32,7 +32,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
