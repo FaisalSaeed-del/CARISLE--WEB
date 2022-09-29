@@ -10,11 +10,11 @@ const Box = () => {
   return (
     <div className="relative">
       <section className="container">
-        <div className=" p-32  ">
-          <div className="hero-bg w-[1230px] absolute bottom-1 ">
-            <div className=" flex flex-row">
+        <div className=" py-56 px-32">
+          <div className="hero-bg w-[1230px] absolute  bottom-1">
+            <div className="py-14 px-10 grid grid-cols-3">
               <div>
-                <div className="p-10">
+                <div className="col-span-1">
                   <div className=" box-bg text-white max-w-[293px] mb-[26px] ">
                     <h2 className="text-[32px] ml-4">
                       EPDM solutions for flat roofs, façades and buildings
@@ -38,9 +38,8 @@ const Box = () => {
                     <span>07</span>
                   </div>
                 </div>
-                <div></div>
               </div>
-              <div className="w-full">
+              <div className="col-span-2">
                 <div className="text-[24px] py-10">
                   <h1 className="text-center">What About Your Project</h1>
                 </div>
@@ -55,8 +54,8 @@ const Box = () => {
                     <img src={BOX3} alt="" />
                   </div>
                 </div>
-                <div className="grid grid-cols-2 ">
-                  <div className="flex flex-row py-16 space-x-[20px]">
+                <div className="grid grid-cols-3 ">
+                  <div className="flex  py-16 space-x-[20px]">
                     <img src={R1} alt="" />
                     <img src={R2} alt="" />
                   </div>
