@@ -4,12 +4,13 @@ import BOX2 from "../assets/images/group1.png";
 import BOX3 from "../assets/images/group2.png";
 import R1 from "../assets/images/arr1.png";
 import R2 from "../assets/images/arr2.png";
+import BOX4 from "../assets/images/bg.png";
 
 const Box = () => {
   return (
     <div className="relative">
       <section className="container">
-        <div className=" py-56 px-32">
+        <div className=" py-72 px-32">
           <div className="hero-bg  absolute  bottom-1">
             <div className="py-14 px-10 gap-8 grid grid-cols-3">
               <div>
@@ -42,26 +43,32 @@ const Box = () => {
                 <div className="text-[24px] py-10">
                   <h1 className="text-center">What About Your Project</h1>
                 </div>
-                <div className="grid grid-cols-3 ">
-                  <div className=" flex justify-around">
+                <div className="grid grid-cols-3 realtive ">
+                  <div className="m-3 flex justify-around">
+                    <img src={BOX4} alt="" className="" />
+
                     <img
                       src={BOX1}
                       alt=""
-                      className="min-w-[80px] max-w-[80px]"
+                      className=" absolute botom-1 top-56"
                     />
                   </div>
-                  <div className=" flex justify-around  ">
+                  <div className=" m-3 flex justify-around">
+                    <img src={BOX4} alt="" className="" />
+
                     <img
                       src={BOX2}
                       alt=""
-                      className="min-w-[80px] max-w-[80px]"
+                      className=" absolute botom-1 top-56"
                     />
                   </div>
-                  <div className=" flex justify-around  ">
+                  <div className="m-3 flex justify-around">
+                    <img src={BOX4} alt="" className="" />
+
                     <img
                       src={BOX3}
                       alt=""
-                      className="min-w-[80px] max-w-[80px]"
+                      className=" absolute botom-1 top-56"
                     />
                   </div>
                 </div>
