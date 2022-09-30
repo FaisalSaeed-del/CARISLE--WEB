@@ -27,7 +27,7 @@ const Box = () => {
                       construction projects.
                     </p>
                   </div>
-                  <div className="flex flex-row space-x-[20px] mb-10 px-5">
+                  <div className="flex flex-row space-x-[25px] mb-10 px-5">
                     <span>01</span>
                     <span>02</span>
                     <span>03</span>

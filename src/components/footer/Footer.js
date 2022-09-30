@@ -14,7 +14,7 @@ const Footer = () => {
               <div>
                 <img src={Logo} alt="" />
               </div>
-              <div className="text-white text-xl  py-16 ">
+              <div className="text-white text-[16px]  py-16 ">
                 <h1 className="py-2 max-w-[221px]">
                   Construction Materials Ltd.
                 </h1>
@@ -40,9 +40,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:gri  gap-5 ">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-col-1  gap-5 ">
               <div className="flex flex-col p-10 ">
-                <div className="text-white text-xl mb-5">
+                <div className="text-white text-[16px] mb-5">
                   <h1>Go Direct to</h1>
                 </div>
                 <div className=" mb-5 flex flex-col text-gray-300 py-2">
@@ -52,7 +52,7 @@ const Footer = () => {
                   <a className="mt-2">Products</a>
                   <a className="mt-2">Downloads</a>
                 </div>
-                <div className="text-white text-xl mb-5">
+                <div className="text-white text-[16px] mb-5">
                   <h1>PRODUCT TYPE</h1>
                 </div>
                 <div className="mb-5 flex flex-col text-gray-300 py-2">
@@ -63,7 +63,7 @@ const Footer = () => {
               </div>
               {/* GRID 2 */}
               <div className="flex flex-col  p-10">
-                <div className="text-white mb-5 text-xl">
+                <div className="text-white mb-5 text-[16px]">
                   <h1>SOLUTIONS</h1>
                 </div>
                 <div className="mb-5 flex flex-col text-gray-300 py-2">
@@ -77,7 +77,7 @@ const Footer = () => {
                     Downloads
                   </a>
                 </div>
-                <div className="text-white mb-5 text-xl">
+                <div className="text-white mb-5 text-[16px]">
                   <h1>CARISLE COM</h1>
                 </div>
                 <div className="flex flex-col mb-5 text-gray-300 py-2">
@@ -94,7 +94,7 @@ const Footer = () => {
               </div>
               {/* GRID 3 */}
               <div className="flex flex-col p-10 ">
-                <div className="text-white mb-5 text-xl">
+                <div className="text-white mb-5 text-[16px]">
                   <h1>BRANDS</h1>
                 </div>
                 <div className="flex flex-col mb-5 text-gray-300 py-2">
@@ -108,7 +108,7 @@ const Footer = () => {
                     Downloads
                   </a>
                 </div>
-                <div className="text-white mb-5 text-xl">
+                <div className="text-white mb-5 text-[16px]">
                   <h1>LEGAL</h1>
                 </div>
                 <div className="flex  mb-5 flex-col text-gray-300 py-2">

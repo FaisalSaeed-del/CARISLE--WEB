@@ -8,7 +8,7 @@ const Help = () => {
     <div>
       <section className="contianer">
         <div>
-          <div className=" p-20 grid grid-cols-3 ">
+          <div className=" mt-[53px] ml-[170px] mr-[170px] grid grid-cols-3 space-x-[110px] ">
             <div>
               <div className="text-[42px]  text-blue-600">
                 <h1>How can we help?</h1>
@@ -42,7 +42,7 @@ const Help = () => {
               <div>
                 <div className="relative">
                   <img src={NOISY} alt="" />
-                  <div className="absolute bottom-14 left-5 top-2 text-[24px] text-white">
+                  <div className="absolute top-1 left-5  text-[24px] text-white">
                     <p>NEED AN ADVICE?</p>
                   </div>
                 </div>
