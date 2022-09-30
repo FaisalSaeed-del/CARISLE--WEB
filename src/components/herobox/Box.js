@@ -11,7 +11,7 @@ const Box = () => {
     <div className="relative">
       <section className="container">
         <div className=" py-72 px-32">
-          <div className="hero-bg  absolute  bottom-10">
+          <div className="hero-bg  absolute  bottom-40 mr-14">
             <div className="p-7 gap-8 grid grid-cols-3">
               <div>
                 <div className="col-span-1">
@@ -31,8 +31,8 @@ const Box = () => {
                 </div>
               </div>
               <div className="col-span-2">
-                <div className="text-[24px] py-10">
-                  <h1 className="text-center">What About Your Project</h1>
+                <div className="text-[24px] font-bold py-10">
+                  <h1 className="text-center">What is Your Project</h1>
                 </div>
                 <div className="grid grid-cols-3 realtive ">
                   <div className="m-3 flex justify-around">
@@ -66,7 +66,7 @@ const Box = () => {
               </div>
             </div>
             <div className="flex flex-row justify-between">
-              <div className="flex flex-row justify-between ml-10 space-x-[30px] ">
+              <div className="gap-x-2 flex flex-row justify-between ml-10 space-x-[30px] ">
                 <span>01</span>
                 <span>02</span>
                 <span>03</span>
@@ -74,16 +74,16 @@ const Box = () => {
                 <span>05</span>
                 <span>06</span>
                 <span>07</span>
-                <div className="flex flex-row mt-1 space-x-3">
-                  <a href="">
-                    <HiOutlineArrowNarrowRight />
-                  </a>
+                <div className="gap-x-4 flex flex-row mt-1 ">
                   <a href="">
                     <HiOutlineArrowNarrowLeft />
                   </a>
+                  <a href="">
+                    <HiOutlineArrowNarrowRight />
+                  </a>
                 </div>
               </div>
-              <div className="mr-10 mb-4 flex justify-center orange-btn">
+              <div className="mr-10 mb-2 flex justify-center orange-btn">
                 <button className="text-white  text-[16px] ">
                   Find Solution
                 </button>
