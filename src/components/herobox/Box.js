@@ -11,7 +11,7 @@ const Box = () => {
     <div className="relative">
       <section className="container">
         <div className=" py-72 px-32">
-          <div className="hero-bg  absolute  bottom-16 mr-14">
+          <div className="hero-bg  absolute  bottom-40 mr-14">
             <div className="p-7 gap-8 grid grid-cols-3">
               <div>
                 <div className="col-span-1">
@@ -35,7 +35,7 @@ const Box = () => {
                   <h1 className="text-center">What is Your Project</h1>
                 </div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-flow-col-dense  realtive ">
-                  <div className=" object-contain m-3 flex justify-around">
+                  <div className=" m-3 flex justify-around">
                     <img src={BOX4} alt="" className="" />
 
                     <img
@@ -44,7 +44,7 @@ const Box = () => {
                       className=" absolute bottom-1 top-56"
                     />
                   </div>
-                  <div className="object-contain m-3 flex justify-around">
+                  <div className=" m-3 flex justify-around">
                     <img src={BOX4} alt="" className="" />
 
                     <img
@@ -53,7 +53,7 @@ const Box = () => {
                       className=" absolute botom-1 top-56"
                     />
                   </div>
-                  <div className="object-contain m-3 flex justify-around">
+                  <div className=" m-3 flex justify-around">
                     <img src={BOX4} alt="" className="" />
 
                     <img
