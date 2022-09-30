@@ -35,7 +35,7 @@ const Box = () => {
                   <h1 className="text-center">What is Your Project</h1>
                 </div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-flow-col-dense  realtive ">
-                  <div className="m-3 flex justify-around">
+                  <div className=" object-contain m-3 flex justify-around">
                     <img src={BOX4} alt="" className="" />
 
                     <img
@@ -44,7 +44,7 @@ const Box = () => {
                       className=" absolute bottom-1 top-56"
                     />
                   </div>
-                  <div className=" m-3 flex justify-around">
+                  <div className="object-contain m-3 flex justify-around">
                     <img src={BOX4} alt="" className="" />
 
                     <img
@@ -53,7 +53,7 @@ const Box = () => {
                       className=" absolute botom-1 top-56"
                     />
                   </div>
-                  <div className="m-3 flex justify-around">
+                  <div className="object-contain m-3 flex justify-around">
                     <img src={BOX4} alt="" className="" />
 
                     <img
