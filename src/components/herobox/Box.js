@@ -11,7 +11,7 @@ const Box = () => {
     <div className="relative">
       <section className="container">
         <div className=" py-72 px-32">
-          <div className="hero-bg  absolute  bottom-40 mr-14">
+          <div className="hero-bg  absolute  bottom-32 mr-14">
             <div className="p-7 gap-8 grid grid-cols-3">
               <div>
                 <div className="col-span-1">

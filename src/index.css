@@ -100,9 +100,9 @@ border-radius: 3px;
 }
 .hero-bg{
   background: #FFFFFF;
-border: 1px solid rgba(0, 74, 149, 0.1);
-box-shadow: 0px 10px 20px rgba(0, 74, 149, 0.08);
-border-radius: 4px;
+  border: 1px solid rgba(0, 74, 149, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 74, 149, 0.08);
+  border-radius: 4px;
 }
 .image {
   
