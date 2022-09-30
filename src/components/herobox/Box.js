@@ -11,7 +11,7 @@ const Box = () => {
     <div className="relative">
       <section className="container">
         <div className=" py-72 px-32">
-          <div className="hero-bg  absolute  bottom-40 mr-14">
+          <div className="hero-bg  absolute  bottom-16 mr-14">
             <div className="p-7 gap-8 grid grid-cols-3">
               <div>
                 <div className="col-span-1">
@@ -34,14 +34,14 @@ const Box = () => {
                 <div className="text-[24px] font-bold py-10">
                   <h1 className="text-center">What is Your Project</h1>
                 </div>
-                <div className="grid grid-cols-3 realtive ">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-flow-col-dense  realtive ">
                   <div className="m-3 flex justify-around">
                     <img src={BOX4} alt="" className="" />
 
                     <img
                       src={BOX1}
                       alt=""
-                      className=" absolute botom-1 top-56"
+                      className=" absolute bottom-1 top-56"
                     />
                   </div>
                   <div className=" m-3 flex justify-around">
@@ -83,7 +83,7 @@ const Box = () => {
                   </a>
                 </div>
               </div>
-              <div className="mr-10 mb-2 flex justify-center orange-btn">
+              <div className="mr-10 mb-2  flex justify-center orange-btn">
                 <button className="text-white  text-[16px] ">
                   Find Solution
                 </button>

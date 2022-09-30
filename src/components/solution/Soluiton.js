@@ -6,7 +6,7 @@ const Soluiton = () => {
     <div>
       <section className="container">
         <div className="px-10">
-          <div className="p-20 grid grid-cols-2 py-10 ">
+          <div className="p-20 grid lg:grid-cols-2 sm:grid-cols-1 py-10 ">
             <div className="py-10">
               <div className="max-w-[495px]">
                 <h2 className=" text-[42px]">

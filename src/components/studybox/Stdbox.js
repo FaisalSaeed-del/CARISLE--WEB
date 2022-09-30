@@ -11,13 +11,13 @@ const Stdbox = () => {
     <div className="blog">
       <section className="container">
         <div className="study-box">
-          <div className="relative  bottom-44 w-[1230px] m-auto p-10">
+          <div className="relative  bottom-44 max-w-[1230px]  m-auto p-10">
             <div className="bg-white p-10 ">
-              <h1 className="text-xl font-bold mb-2">
+              <h1 className="text-[20px] font-bold mb-2">
                 Horticultural Show Schwäbisch Gmün
               </h1>
               <div className="flex flex-row justify-between">
-                <div className="max-w-[900px]">
+                <div className="lg:max-w-[900px] sm:max-w-[305px]">
                   <p>
                     Teaching and research at the Institute for Computational
                     Design (ICD) at the University of Stuttgart focus on
@@ -42,7 +42,7 @@ const Stdbox = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="flex flex-row justify-between bg-white">
+                  <div className="flex flex-row  justify-between bg-white">
                     <div className="relative">
                       <img src={BLOG} alt="" className="image" />
                       <div className="absolute bottom-80">
@@ -78,7 +78,7 @@ const Stdbox = () => {
             {/* FINISHING LINE NEWS SECTION */}
             <div className="mt-[32px]">
               {/* ==================== POSET SECTION============ */}
-              <div className=" grid grid-cols-3 gap-x-2 ">
+              <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  gap-x-2 ">
                 <div className="max-w-[390px] ">
                   <div className="relative">
                     <img src={POST1} alt="" />

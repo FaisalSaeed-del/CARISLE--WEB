@@ -7,10 +7,10 @@ const Studies = () => {
       <section className="container">
         <div className="p-10 relative">
           <div className="">
-            <h1 className="absolute mt-10 left-[600px] text-[42px] font-bold ">
+            <h1 className="absolute sm:text[24px] mt-10 left-[600px] text-[42px] font-bold ">
               Case Studies
             </h1>
-            <p className="absolute left-[450px] top-40 ">
+            <p className="absolute text-[16px] left-[450px] top-40 ">
               Lorem ipsum dolor sit amet, coctetur adipiscing elit. Aenean
               euismod bibendum laoreet
             </p>
