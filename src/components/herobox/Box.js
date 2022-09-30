@@ -2,17 +2,17 @@ import React from "react";
 import BOX1 from "../assets/images/group.png";
 import BOX2 from "../assets/images/group1.png";
 import BOX3 from "../assets/images/group2.png";
-import R1 from "../assets/images/arr1.png";
-import R2 from "../assets/images/arr2.png";
 import BOX4 from "../assets/images/bg.png";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 
 const Box = () => {
   return (
     <div className="relative">
       <section className="container">
         <div className=" py-72 px-32">
-          <div className="hero-bg  absolute  bottom-1">
-            <div className="py-14 px-10 gap-8 grid grid-cols-3">
+          <div className="hero-bg  absolute  bottom-10">
+            <div className="p-7 gap-8 grid grid-cols-3">
               <div>
                 <div className="col-span-1">
                   <div className=" box-bg text-white max-w-[293px] mb-[26px] ">
@@ -27,15 +27,6 @@ const Box = () => {
                       products from CARLISLE® CM Europe are as diverse as your
                       construction projects.
                     </p>
-                  </div>
-                  <div className="flex flex-row space-x-[25px] mb-10 px-5">
-                    <span>01</span>
-                    <span>02</span>
-                    <span>03</span>
-                    <span>04</span>
-                    <span>05</span>
-                    <span>06</span>
-                    <span>07</span>
                   </div>
                 </div>
               </div>
@@ -72,17 +63,30 @@ const Box = () => {
                     />
                   </div>
                 </div>
-                <div className="flex flex-row justify-between">
-                  <div className="flex mt-6 py-16 space-x-[20px]">
-                    <img src={R1} alt="" />
-                    <img src={R2} alt="" />
-                  </div>
-                  <div className=" flex justify-center mt-10 orange-btn">
-                    <button className="text-white  text-[16px] ">
-                      Find Solution
-                    </button>
-                  </div>
+              </div>
+            </div>
+            <div className="flex flex-row justify-between">
+              <div className="flex flex-row justify-between ml-10 space-x-[30px] ">
+                <span>01</span>
+                <span>02</span>
+                <span>03</span>
+                <span>04</span>
+                <span>05</span>
+                <span>06</span>
+                <span>07</span>
+                <div className="flex flex-row mt-1 space-x-3">
+                  <a href="">
+                    <HiOutlineArrowNarrowRight />
+                  </a>
+                  <a href="">
+                    <HiOutlineArrowNarrowLeft />
+                  </a>
                 </div>
+              </div>
+              <div className="mr-10 mb-4 flex justify-center orange-btn">
+                <button className="text-white  text-[16px] ">
+                  Find Solution
+                </button>
               </div>
             </div>
           </div>
