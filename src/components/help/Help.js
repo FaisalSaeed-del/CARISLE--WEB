@@ -25,7 +25,7 @@ const Help = () => {
                 <h2>Have any Question?</h2>
               </div>
               <p>if you have any question feel free to contact</p>
-              <div className="mt-[40px] text-[16px] font-bold flex flex-row space-x-2">
+              <div className="mt-[40px] text-[16px] font-bold flex flex-wrap flex-row space-x-2">
                 <a href="">
                   <FcPhone />
                 </a>
