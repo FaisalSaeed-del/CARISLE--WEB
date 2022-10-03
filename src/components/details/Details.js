@@ -10,7 +10,7 @@ const Details = () => {
             <div className="shadwo-xl shadow-black  bg-gray-300">
               <div
                 className="py-10 px-5 flex
-               flex-row space-x-[44px]"
+               flex-row flex-wrap space-x-[44px]"
               >
                 <div>
                   <img src={BOX7} alt="" />
