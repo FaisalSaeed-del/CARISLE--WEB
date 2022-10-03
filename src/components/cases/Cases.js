@@ -12,7 +12,7 @@ const Cases = () => {
             <div className="max-w-[289x] text-[42px] ml-[187px] font-bold">
               <h1>We are Carlisle</h1>
             </div>
-            <div className="max-w-[600px] ml-[187px]">
+            <div className="max-w-[600px] ml-[75px] ">
               <p className="para">
                 While enhancing your skills at the CARLISLE® Academy, you will
                 learn about our RESITRIX®, HERTALAN®, ALUTRIX®, HARDCAST® and
@@ -22,7 +22,7 @@ const Cases = () => {
                 operations.
               </p>
             </div>
-            <div className="py-10 ml-[187px]">
+            <div className="py-10  ml-[75px] ">
               <button className="sol-btn text-white text-xl">
                 VIEW ALL CASES
               </button>
