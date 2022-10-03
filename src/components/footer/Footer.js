@@ -45,20 +45,18 @@ const Footer = () => {
                 <div className="text-white text-[16px] mb-5">
                   <h1>Go Direct to</h1>
                 </div>
-                <div className=" mb-5 flex flex-col text-gray-300 py-2">
-                  <a href="" className="mt-2">
-                    Find a dealer
-                  </a>
-                  <a className="mt-2">Products</a>
-                  <a className="mt-2">Downloads</a>
+                <div className=" mb-5 flex flex-col text-gray-300 py-2 gap-y-3">
+                  <a href="">Find a dealer</a>
+                  <a>Products</a>
+                  <a>Downloads</a>
                 </div>
                 <div className="text-white text-[16px] mb-5">
                   <h1>PRODUCT TYPE</h1>
                 </div>
-                <div className="mb-5 flex flex-col text-gray-300 py-2">
-                  <a className="mt-2">Find a dealer</a>
-                  <a className="mt-2">Products</a>
-                  <a className="mt-2">Downloads</a>
+                <div className="mb-5 flex flex-col text-gray-300 py-2 gap-y-3">
+                  <a>Find a dealer</a>
+                  <a>Products</a>
+                  <a>Downloads</a>
                 </div>
               </div>
               {/* GRID 2 */}
@@ -66,30 +64,18 @@ const Footer = () => {
                 <div className="text-white mb-5 text-[16px]">
                   <h1>SOLUTIONS</h1>
                 </div>
-                <div className="mb-5 flex flex-col text-gray-300 py-2">
-                  <a href="" className="mt-2">
-                    Find a dealer
-                  </a>
-                  <a href="" className="mt-2">
-                    Products
-                  </a>
-                  <a href="" className="mt-2">
-                    Downloads
-                  </a>
+                <div className="mb-5 flex flex-col text-gray-300 py-2 gap-y-3">
+                  <a href="">Find a dealer</a>
+                  <a href="">Products</a>
+                  <a href="">Downloads</a>
                 </div>
                 <div className="text-white mb-5 text-[16px]">
                   <h1>CARISLE COM</h1>
                 </div>
-                <div className="flex flex-col mb-5 text-gray-300 py-2">
-                  <a href="" className="mt-2">
-                    Find a dealer
-                  </a>
-                  <a href="" className="mt-2">
-                    Products
-                  </a>
-                  <a href="" className="mt-2">
-                    Downloads
-                  </a>
+                <div className="flex flex-col mb-5 text-gray-300 py-2 gap-y-3">
+                  <a href="">Find a dealer</a>
+                  <a href="">Products</a>
+                  <a href="">Downloads</a>
                 </div>
               </div>
               {/* GRID 3 */}
@@ -97,30 +83,18 @@ const Footer = () => {
                 <div className="text-white mb-5 text-[16px]">
                   <h1>BRANDS</h1>
                 </div>
-                <div className="flex flex-col mb-5 text-gray-300 py-2">
-                  <a href="" className="mt-2">
-                    Find a dealer
-                  </a>
-                  <a href="" className="mt-2">
-                    Products
-                  </a>
-                  <a href="" className="mt-2">
-                    Downloads
-                  </a>
+                <div className="flex flex-col mb-5 text-gray-300 py-2 gap-y-3">
+                  <a href="">Find a dealer</a>
+                  <a href="">Products</a>
+                  <a href="">Downloads</a>
                 </div>
                 <div className="text-white mb-5 text-[16px]">
                   <h1>LEGAL</h1>
                 </div>
-                <div className="flex  mb-5 flex-col text-gray-300 py-2">
-                  <a href="" className="mt-2">
-                    Find a dealer
-                  </a>
-                  <a href="" className="mt-2">
-                    Products
-                  </a>
-                  <a href="" className="mt-2">
-                    Downloads
-                  </a>
+                <div className="flex  mb-5 flex-col text-gray-300 py-2 gap-y-3">
+                  <a href="">Find a dealer</a>
+                  <a href="">Products</a>
+                  <a href="">Downloads</a>
                 </div>
               </div>
             </div>

@@ -19,8 +19,8 @@ const Soluiton = () => {
                   applications. Let us inspire you!
                 </p>
 
-                <div className="mt-[54px]">
-                  <button className="sol-btn  text-[16px] text-white">
+                <div className="mt-[54px] sol-btn   ">
+                  <button className="py-4 text-[16px] ml-2  text-white">
                     DISCOVER OUR SOLUTIONS
                   </button>
                 </div>

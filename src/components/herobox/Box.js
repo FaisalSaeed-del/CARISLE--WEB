@@ -36,31 +36,19 @@ const Box = () => {
                 </div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-flow-col-dense  realtive ">
                   <div className=" m-3 flex justify-around">
-                    <img src={BOX4} alt="" className="" />
+                    <img src={BOX4} alt="" />
 
-                    <img
-                      src={BOX1}
-                      alt=""
-                      className=" absolute bottom-1 top-56"
-                    />
+                    <img src={BOX1} alt="" className=" absolute  top-52" />
                   </div>
                   <div className=" m-3 flex justify-around">
-                    <img src={BOX4} alt="" className="" />
+                    <img src={BOX4} alt="" />
 
-                    <img
-                      src={BOX2}
-                      alt=""
-                      className=" absolute botom-1 top-56"
-                    />
+                    <img src={BOX2} alt="" className=" absolute top-52" />
                   </div>
                   <div className=" m-3 flex justify-around">
-                    <img src={BOX4} alt="" className="" />
+                    <img src={BOX4} alt="" />
 
-                    <img
-                      src={BOX3}
-                      alt=""
-                      className=" absolute botom-1 top-56"
-                    />
+                    <img src={BOX3} alt="" className=" absolute top-52" />
                   </div>
                 </div>
               </div>
