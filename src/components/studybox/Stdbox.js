@@ -16,7 +16,7 @@ const Stdbox = () => {
               <h1 className="text-[20px] font-bold mb-2">
                 Horticultural Show Schwäbisch Gmün
               </h1>
-              <div className="flex flex-row justify-between">
+              <div className="flex  flex-row justify-between">
                 <div className="lg:max-w-[900px] sm:max-w-[305px]">
                   <p>
                     Teaching and research at the Institute for Computational
@@ -42,15 +42,15 @@ const Stdbox = () => {
                   </div>
                 </div>
                 <div>
-                  <div className="flex flex-row  justify-between bg-white">
-                    <div className="relative">
+                  <div className="md:grid-cols-1 grid lg:grid-cols-5 bg-white">
+                    <div className="relative col-span-3">
                       <img src={BLOG} alt="" className="image" />
                       <div className="absolute bottom-80">
                         <img src={Date} alt="" />
                       </div>
                     </div>
 
-                    <div className="mt-[63px] mr-[68px]">
+                    <div className="col-span-2 mt-[63px] mr-[68px]">
                       <div className="max-w-[376px]">
                         <h1 className="text-[24px] mb-5 ">
                           CARLISLE welcomes delegates at the Schools & Academies

@@ -6,8 +6,8 @@ const Studies = () => {
     <div className="">
       <section className="container">
         <div className="p-10 relative">
-          <div className="">
-            <h1 className="absolute sm:text[24px] mt-10 left-[600px] text-[42px] font-bold ">
+          <div className="Mob-Cases">
+            <h1 className="absolute  mt-10 left-[600px] text-[42px] font-bold ">
               Case Studies
             </h1>
             <p className="absolute text-[16px] left-[450px] top-40 ">
