@@ -97,6 +97,9 @@ border-radius: 3px;
 }
 .blog{
   background-image: url(./components/assets/images/backgrnd.png);
+  background-repeat: no-repeat;
+  background-position: center ;
+  
 }
 .hero-bg{
   background: #FFFFFF;
@@ -147,7 +150,9 @@ background: #FFFFFF;
 .bg-study{
   background-image: url(./components/assets/images/studies.png);
   height: 750px;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center ;
+  margin: 50px;
 
 }
 

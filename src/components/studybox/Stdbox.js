@@ -11,7 +11,7 @@ const Stdbox = () => {
     <div className="blog">
       <section className="container">
         <div className="study-box">
-          <div className="relative bottom-28 max-w-[1230px]  m-auto p-10">
+          <div className="relative bottom-36 max-w-[1230px]  m-auto p-10">
             <div className="bg-white p-10 ">
               <h1 className="text-[20px] font-bold mb-2">
                 Horticultural Show Schwäbisch Gmün
