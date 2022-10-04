@@ -4,7 +4,7 @@ const Cases = () => {
   return (
     <div>
       <section className="container">
-        <div className="p-14 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+        <div className="p-14 grid lg:grid-cols-2 md:grid-cols-1">
           <div>
             <img src={BOX5} alt="" />
           </div>

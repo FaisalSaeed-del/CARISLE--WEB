@@ -15,7 +15,7 @@ const Details = () => {
                 <div>
                   <img src={BOX7} alt="" />
                 </div>
-                <div className="">
+                <div className="font-roboto">
                   <h1 className="text-[24px] mt-[38px] text-blue-900 mb-[20px] max-w-[337px]">
                     Das Multitalent für jedes Dach
                   </h1>
