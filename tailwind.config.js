@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         roboto: '["roboto", "cursive"]',
       },
+      backgroundImage: {
+        study: "url('../src/components/assets/images/studies.png')",
+      },
     },
   },
   plugins: [],

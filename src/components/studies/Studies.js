@@ -1,22 +1,18 @@
 import React from "react";
-import Img2 from "../assets/images/studies.png";
 
 const Studies = () => {
   return (
-    <div className="">
+    <div className="bg-study">
       <section className="container">
-        <div className="p-10 relative">
-          <div className="Mob-Cases">
-            <h1 className="absolute  mt-10 left-[600px] text-[42px] font-bold ">
-              Case Studies
-            </h1>
-            <p className="absolute text-[16px] left-[450px] top-40 ">
+        <div className="mt-[100px] p-20">
+          <div className="text-[42px] flex justify-center">
+            <h1>Case Studies</h1>
+          </div>
+          <div className=" text-[16px] mt-[10px] flex justify-center">
+            <h1>
               Lorem ipsum dolor sit amet, coctetur adipiscing elit. Aenean
-              euismod bibendum laoreet
-            </p>
-            <div>
-              <img src={Img2} alt="" />
-            </div>
+              euismod bibendum laoreet.
+            </h1>
           </div>
         </div>
       </section>

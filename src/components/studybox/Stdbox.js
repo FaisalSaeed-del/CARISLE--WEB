@@ -11,7 +11,7 @@ const Stdbox = () => {
     <div className="blog">
       <section className="container">
         <div className="study-box">
-          <div className="relative  bottom-44 max-w-[1230px]  m-auto p-10">
+          <div className="relative bottom-28 max-w-[1230px]  m-auto p-10">
             <div className="bg-white p-10 ">
               <h1 className="text-[20px] font-bold mb-2">
                 Horticultural Show Schwäbisch Gmün
@@ -92,7 +92,7 @@ const Stdbox = () => {
                         CARLISLE welcomes delegates at the Schools & Academies
                         Show
                       </h1>
-                      <p className="text-[16px]">
+                      <p className="text-[16px] text-justify mt-3">
                         Team CARLISLE CM Europe are welcoming delegates
                         attending the Schools & Academies Show at the NEC,
                         Birmingham..
@@ -118,15 +118,19 @@ const Stdbox = () => {
                   </div>
                   <div className="bg-white p-10">
                     <div className="max-w-[340px]">
-                      <h1 className="text-[18px] font-bold">
-                        CARLISLE welcomes delegates at the Schools & Academies
-                        Show
-                      </h1>
-                      <p className="text-[16px]">
-                        Team CARLISLE CM Europe are welcoming delegates
-                        attending the Schools & Academies Show at the NEC,
-                        Birmingham..
-                      </p>
+                      <div>
+                        <h1 className="text-[18px] font-bold">
+                          CARLISLE welcomes delegates at the Schools & Academies
+                          Show
+                        </h1>
+                      </div>
+                      <div>
+                        <p className="text-[16px] text-justify mt-3">
+                          Team CARLISLE CM Europe are welcoming delegates
+                          attending the Schools & Academies Show at the NEC,
+                          Birmingham..
+                        </p>
+                      </div>
                     </div>
 
                     <div className="flex flex-row">
@@ -150,7 +154,7 @@ const Stdbox = () => {
                         CARLISLE welcomes delegates at the Schools & Academies
                         Show
                       </h1>
-                      <p className="text-[16px]">
+                      <p className="text-[16px] text-justify mt-3">
                         Team CARLISLE CM Europe are welcoming delegates
                         attending the Schools & Academies Show at the NEC,
                         Birmingham..

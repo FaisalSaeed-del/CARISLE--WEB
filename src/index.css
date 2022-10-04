@@ -143,6 +143,16 @@ border-radius: 3px;
   
 background: #FFFFFF;
 }
+
+.bg-study{
+  background-image: url(./components/assets/images/studies.png);
+  height: 750px;
+  width: 100%;
+
+}
+
+
+/* Responsive */
 @media  (max-width:940px)  {
 
   .Mob-view{
