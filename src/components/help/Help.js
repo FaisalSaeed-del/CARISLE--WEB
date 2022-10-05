@@ -8,7 +8,7 @@ const Help = () => {
     <div>
       <section className="contianer">
         <div>
-          <div className=" mt-[53px] ml-[170px] mr-[170px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 space-x-[110px] ">
+          <div className=" md:mt-[53px] ml-[170px] mr-[170px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 space-x-[110px] ">
             <div>
               <div className="max-w-[289px] text-[42px]  text-blue-600">
                 <h1>How can we help?</h1>
@@ -40,9 +40,8 @@ const Help = () => {
             </div>
             <div>
               <div className="sm:mt-5">
-                <div className="relative">
-                  <img src={NOISY} alt="" />
-                  <div className="absolute top-1 left-5  text-[24px] text-white">
+                <div className="box-bg mb-5">
+                  <div className="text-[24px] text-white p-3">
                     <p>NEED AN ADVICE?</p>
                   </div>
                 </div>
