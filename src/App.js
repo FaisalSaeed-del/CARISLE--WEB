@@ -12,12 +12,18 @@ import Studies from "./components/studies/Studies";
 import Help from "./components/help/Help";
 import Footer from "./components/footer/Footer";
 import Stdbox from "./components/studybox/Stdbox";
+import Mobilenavigate from "./components/mobileresponse/Mobilenavigate";
 
 function App() {
   return (
     <div>
       <Header />
-      <Nav />
+      <div className="hidden lg:block">
+        <Nav />
+      </div>
+      <div className="block lg:hidden">
+        <Mobilenavigate />
+      </div>
       <Hero />
       <Box />
       <Rectangle />

@@ -1,21 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../assets/images/logo.png";
-import Mobilenavigate from "../mobileresponse/Mobilenavigate";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
-  const [active, setActive] = useState(false);
-  const showMenu = () => {
-    setActive(!active);
-  };
-
   return (
     <div className="bg-white mt-10">
       <section className="container">
-        <div className="md:hidden absolute right-8">
-          <GiHamburgerMenu onClick={showMenu} />
-        </div>
-        <div className="hidden md:flex flex-row flex-wrap  justify-around">
+        <div className=" flex flex-row justify-around">
           <div>
             <a href="">
               <img src={Logo} alt="" />
@@ -43,11 +33,9 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-
           <div className=" btn flex justify-center py-3  text-[14px] font-bold text-white">
             <a href="">SOLUTIONS FINDER</a>
           </div>
-          <Mobilenavigate showMenu={showMenu} active={active} />
         </div>
       </section>
     </div>

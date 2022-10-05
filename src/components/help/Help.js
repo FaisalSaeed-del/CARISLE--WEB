@@ -13,14 +13,14 @@ const Help = () => {
               <div className="max-w-[289px] text-[42px]  text-blue-600">
                 <h1>How can we help?</h1>
               </div>
-              <div className="max-w-[290px]">
+              <div className="max-w-[290px] lg:mt-4 ">
                 <p>
                   Waterproof EPDM solutions for flat roofs, façades and
                   buildings
                 </p>
               </div>
             </div>
-            <div className="sm:mt-5">
+            <div className="sm:mt-5 ">
               <div className="text-[24px] ">
                 <h2>Have any Question?</h2>
               </div>

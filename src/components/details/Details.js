@@ -16,10 +16,10 @@ const Details = () => {
                   <img src={BOX7} alt="" />
                 </div>
                 <div className="font-roboto">
-                  <h1 className="text-[24px] mt-[38px] text-blue-900 mb-[20px] max-w-[337px]">
+                  <h1 className="text-[24px] mt-[38px] text-blue-900 mb-[20px] ">
                     Das Multitalent für jedes Dach
                   </h1>
-                  <div className="text-justify max-w-[550px] mt- text-[16px] ">
+                  <div className="text-justify max-w-[550px]  text-[16px] ">
                     <p>
                       RESITRIX® ist die einzige Dichtungsbahn, die in einer
                       beispiellosen Materialkombination aus dem
