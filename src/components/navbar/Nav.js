@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -14,22 +15,22 @@ const Nav = () => {
           <div className="nav-items py-4">
             <ul className="flex flex-row flex-wrap text-[14px] space-x-3">
               <li>
-                <a href="">OUR SOLUTIONS</a>
+                <Link to="">OUR SOLUTIONS</Link>
               </li>
               <li>
-                <a href="">PRODUCTS & BRANDS</a>
+                <Link to="">PRODUCTS & BRANDS</Link>
               </li>
               <li>
-                <a href="">CASE STUDIES</a>
+                <Link to="">CASE STUDIES</Link>
               </li>
               <li>
-                <a href="">SERVICE PORTAL</a>
+                <Link to="">SERVICE PORTAL</Link>
               </li>
               <li>
-                <a href="">ACDEMY</a>
+                <Link to="">ACDEMY</Link>
               </li>
               <li>
-                <a href="">ABOUT CCM</a>
+                <Link to="">ABOUT CCM</Link>
               </li>
             </ul>
           </div>

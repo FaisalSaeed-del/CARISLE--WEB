@@ -12,7 +12,9 @@ const Footer = () => {
           <div className="p-14 flex flex-row flex-wrap justify-around">
             <div className="flex flex-col">
               <div>
-                <img src={Logo} alt="" />
+                <a href="">
+                  <img src={Logo} alt="" />
+                </a>
               </div>
               <div className="text-white text-[16px]  py-16 ">
                 <h1 className="py-2 max-w-[221px]">
