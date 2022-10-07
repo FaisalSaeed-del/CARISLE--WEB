@@ -2,7 +2,7 @@ import React from "react";
 
 const Rectangle = () => {
   return (
-    <div className="box-bg md:mt-1 sm:mt-[900px]">
+    <div className="box-bg lg:mt-10 md:mt-72 sm:mt-[400px]">
       <section className="container">
         <div className="flex flex-row p-6 justify-around">
           <div className="  flex flex-row text-[28px] text-white">

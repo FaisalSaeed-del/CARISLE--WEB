@@ -27,7 +27,7 @@ const Nav = () => {
                 <Link to="">SERVICE PORTAL</Link>
               </li>
               <li>
-                <Link to="">ACDEMY</Link>
+                <Link to="">ACADEMY</Link>
               </li>
               <li>
                 <Link to="">ABOUT CCM</Link>
