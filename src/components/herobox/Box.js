@@ -2,13 +2,12 @@ import React from "react";
 import BOX1 from "../assets/images/roof-type-other.svg";
 import BOX2 from "../assets/images/Group (1).svg";
 import BOX3 from "../assets/images/Group.svg";
-import BOX4 from "../assets/images/bg.png";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { HiOutlineArrowNarrowLeft } from "react-icons/hi";
 
 const Box = () => {
   return (
-    <div className="relative h-[880px] md:h-[70vh]">
+    <div className="relative h-[800px] md:h-[70vh]">
       <section className="container relative">
         <div className="hero-bg p-7 left-4 md:left-10 right-4 md:right-10 absolute top-[-40px] lg:top-[-200px] ">
           <div>
@@ -62,7 +61,7 @@ const Box = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between">
               <div className="gap-x-2 flex flex-row justify-between ml-10 space-x-[30px] ">
                 <span>01</span>
                 <span>02</span>
@@ -85,7 +84,7 @@ const Box = () => {
                   Find Solution
                 </button>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
