@@ -49,6 +49,9 @@ const Mobilenavigate = ({ showMenu, active }) => {
             </li>
           </ul>
         </div>
+        <div className="ml-4 btn flex justify-center py-3  text-[14px] font-bold text-white">
+          <a href="">SOLUTIONS FINDER</a>
+        </div>
       </Drawer>
     </div>
   );
