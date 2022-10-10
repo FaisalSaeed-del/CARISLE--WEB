@@ -45,7 +45,7 @@ const Stdbox = () => {
                   <div className="md:grid-cols-1 grid lg:grid-cols-5 bg-white">
                     <div className="relative col-span-3">
                       <img src={BLOG} alt="" className="image" />
-                      <div className="absolute bottom-80">
+                      <div className="absolute bottom-[300px]">
                         <img src={Date} alt="" />
                       </div>
                     </div>
