@@ -3,8 +3,8 @@ import React from "react";
 const Rectangle = () => {
   return (
     <div className="box-bg">
-      <section className="container">
-        <div className="sm:mt-[300px] md:mt-1 flex flex-row p-6 justify-around">
+      <section className=" sm:mt-[590px] md:mt-4 container">
+        <div className=" flex flex-row p-6 justify-around">
           <div className="  flex flex-row text-[28px] text-white">
             <h3 className="font-bold">We will be on the Digital Bau - </h3>
             <span>Hall 1.2 - on 31.05.2022</span>
