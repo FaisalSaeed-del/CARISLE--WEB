@@ -141,7 +141,7 @@ const Stdbox = () => {
                 </div>
                 <div className=" max-w-[390px]  ">
                   <div className="relative">
-                    <img src={POST3} alt="" />
+                    <img src={POST3} alt="" className="w-full" />
                     <div className="absolute bottom-44">
                       <img src={Date} alt="" />
                     </div>

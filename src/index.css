@@ -155,19 +155,3 @@ background: #FFFFFF;
   margin: 50px;
 
 }
-
-
-/* Responsive */
-@media  (max-width:940px)  {
-
-  .Mob-view{
-    width:345px;
-    position: absolute;
-    left: 400px;
-
-  }
-  
-}
-
-
-
