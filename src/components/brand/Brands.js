@@ -9,6 +9,7 @@ import b3 from "../assets/images/b3.png";
 import b4 from "../assets/images/b4.png";
 
 const Brands = () => {
+  // ***********************Dynamic Data *******************
   const [brands, setBrands] = useState({
     id: "1",
     name: "HERTIX",
@@ -16,6 +17,8 @@ const Brands = () => {
     Image2: b1,
     para: "RESITRIX® ist die einzige Dichtungsbahn, die in einer beispiellosen Materialkombination aus dem Synthesekautschuk EPDM und hochwertigem polymermodifizierten Bitumen die Vorteile beider Werkstoffe vereint. Lorem ipsum dolor sit amet...",
   });
+
+  //************************************ */ Mapping ****************************************//
 
   const Branddata = [
     {
@@ -42,11 +45,13 @@ const Brands = () => {
     {
       id: "4",
       Image: B4,
-      name: "Lertix",
+      name: "ECOLAN",
       Image2: b4,
       para: "LESITRIX® ist die einzige Dichtungsbahn, die in einer beispiellosen Materialkombination aus dem Synthesekautschuk EPDM und hochwertigem polymermodifizierten Bitumen die Vorteile beider Werkstoffe vereint. Lorem ipsum dolor sit amet...",
     },
   ];
+
+  // **************** Hover Effect *************
   const Mouseover = (detail) => {
     setBrands({
       id: detail.id,
@@ -55,7 +60,7 @@ const Brands = () => {
       name: detail.name,
     });
   };
-
+  // ********************** Brands Section ********************* //
   return (
     <div>
       <section className="container">
@@ -89,10 +94,10 @@ const Brands = () => {
 
         {/* Details Section */}
 
-        <div className=" clip py-14 px-36">
+        <div className=" clip py-1 px-36">
           <div className=" bg-white ">
             <div className="bg-gray-100">
-              <div className="py-20 px-5 flex flex-row justify-between">
+              <div className="py-14 px-5 flex flex-row justify-between">
                 <div>
                   <img src={brands.Image} alt="" />
                 </div>
