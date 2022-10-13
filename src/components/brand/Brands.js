@@ -7,6 +7,8 @@ import b1 from "../assets/images/b1.png";
 import b2 from "../assets/images/b2.png";
 import b3 from "../assets/images/b3.png";
 import b4 from "../assets/images/b4.png";
+import { BsFillCaretUpFill } from "react-icons/bs";
+import IconSwitch from "react-disable-icon";
 
 const Brands = () => {
   // ***********************Dynamic Data *******************
@@ -15,7 +17,7 @@ const Brands = () => {
     name: "HERTIX",
     Image: B1,
     Image2: b1,
-    para: "RESITRIX® ist die einzige Dichtungsbahn, die in einer beispiellosen Materialkombination aus dem Synthesekautschuk EPDM und hochwertigem polymermodifizierten Bitumen die Vorteile beider Werkstoffe vereint. Lorem ipsum dolor sit amet...",
+    para: "RE SITRIX® ist die einzige Dichtungsbahn, die in einer beispiellosen Materialkombination aus dem Synthesekautschuk EPDM und hochwertigem polymermodifizierten Bitumen die Vorteile beider Werkstoffe vereint. Lorem ipsum dolor sit amet...",
   });
 
   //************************************ */ Mapping ****************************************//
@@ -52,14 +54,18 @@ const Brands = () => {
   ];
 
   // **************** Hover Effect *************
-  const Mouseover = (detail) => {
+  const Mouseover = (detail, id) => {
     setBrands({
       id: detail.id,
       Image: detail.Image,
       para: detail.para,
       name: detail.name,
     });
+    setActiveCard(detail.id);
   };
+  const [activeCard, setActiveCard] = useState();
+  const [disabled, setDisabled] = useState(false);
+
   // ********************** Brands Section ********************* //
   return (
     <div>
@@ -74,18 +80,21 @@ const Brands = () => {
           </div>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 p-10 gap-6">
-          {Branddata.map((detail) => {
+          {Branddata.map((detail, id) => {
             return (
-              <div className="">
+              <div className={`${activeCard === detail.id ? "bg-red" : ""}`}>
                 <div>
                   <img
                     src={detail.Image}
-                    onMouseOver={() => Mouseover(detail)}
+                    onMouseOver={() => Mouseover(detail, id)}
                     alt=""
                   />
                 </div>
                 <div className="relative left-5 bottom-12">
                   <img src={detail.Image2} alt />
+                </div>
+                <div className="cardIcon relative top-12 left-28 text-gray-100 text-md">
+                  {activeCard === detail.id && <BsFillCaretUpFill />}
                 </div>
               </div>
             );
@@ -105,7 +114,7 @@ const Brands = () => {
                   <h1 className="text-[24px] mt-[38px] text-blue-900 mb-[20px] ">
                     {brands.name}
                   </h1>
-                  <div className=" max-w-[550px] text-[16px]">
+                  <div className=" flex flex-wrap flex-row max-w-[550px] text-[16px]">
                     <p>{brands.para}</p>
                   </div>
                   <div className="py-10">
