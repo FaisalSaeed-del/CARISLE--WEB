@@ -8,7 +8,7 @@ import b2 from "../assets/images/b2.png";
 import b3 from "../assets/images/b3.png";
 import b4 from "../assets/images/b4.png";
 import { BsFillCaretUpFill } from "react-icons/bs";
-import IconSwitch from "react-disable-icon";
+import { Flipper, Flipped } from "react-flip-toolkit";
 
 const Brands = () => {
   // ***********************Dynamic Data *******************
@@ -79,27 +79,31 @@ const Brands = () => {
             </p>
           </div>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 p-10 gap-6">
-          {Branddata.map((detail, id) => {
-            return (
-              <div className={`${activeCard === detail.id ? "bg-red" : ""}`}>
+        <Flipper flipKey={activeCard} spring="wobbly">
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 p-10 gap-6">
+            {Branddata.map((detail, id) => {
+              return (
                 <div>
-                  <img
-                    src={detail.Image}
-                    onMouseOver={() => Mouseover(detail, id)}
-                    alt=""
-                  />
+                  <div>
+                    <img
+                      src={detail.Image}
+                      onMouseOver={() => Mouseover(detail, id)}
+                      alt=""
+                    />
+                  </div>
+                  <div className="relative left-5 bottom-12">
+                    <img src={detail.Image2} alt />
+                  </div>
+                  <div className="cardIcon relative top-12 left-28 text-gray-100 text-md">
+                    <Flipped flipId="square">
+                      {activeCard === detail.id && <BsFillCaretUpFill />}
+                    </Flipped>
+                  </div>
                 </div>
-                <div className="relative left-5 bottom-12">
-                  <img src={detail.Image2} alt />
-                </div>
-                <div className="cardIcon relative top-12 left-28 text-gray-100 text-md">
-                  {activeCard === detail.id && <BsFillCaretUpFill />}
-                </div>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </div>
+        </Flipper>
 
         {/* Details Section */}
 
