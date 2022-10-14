@@ -110,8 +110,8 @@ const Brands = () => {
         <div className=" clip py-1 px-36">
           <div className=" bg-white ">
             <div className="bg-gray-100">
-              <div className="py-14 px-5 flex flex-row justify-between">
-                <div>
+              <div className="flex flex-row justify-between">
+                <div className="py-5 px-5">
                   <img src={brands.Image} alt="" />
                 </div>
                 <div className="font-roboto">
